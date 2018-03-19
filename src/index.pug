@@ -1,0 +1,15 @@
+include ./components/index
+
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='content-type' content='text/html; charset=utf-8')
+    title
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet')
+    script(src="https://use.fontawesome.com/eb0a93d89e.js")
+  body
+    .content
+      +product_line()
+        +product_item({taste:'с фуа-гра', portion:'10 порций', present:'мышь в подарок', amount:'0,5', text_selected:'Печень утки разварная с артишоками.'})
+        +product_item({taste:'с рыбой', portion:'40 порций', present:'2 мыши в подарок', amount:'2', text_selected:'Головы щучьи с чесноком да свежайшая сёмгушка.'})
+        +product_item({taste:'с курой', portion:'100 порций', present:'5 мышей в подарок заказчик доволен', amount:'5', text_selected:'Филе из цыплят с трюфелями в бульоне.', ended:'ended'})
