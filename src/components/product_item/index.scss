@@ -58,14 +58,13 @@
     overflow: hidden;
     z-index: 5;
     @media (max-width: 374px) {
-      padding: 20px 30px;
+      padding: 20px 40px;
     }
   }
   &-pretitle {
     color: $gray_color;
     font-size: 16px;
     line-height: normal;
-    word-spacing: 1.5px;
     .hover {
       display: none;
       color: $selected_color;
@@ -133,6 +132,9 @@
   font-size: 13px;
   line-height: 16px;
   text-align: center;
+  @media (max-width: 374px) {
+    max-width: 300px;
+  }
   .product-buy {
     .btn-buy {
       padding: 0;

@@ -408,12 +408,11 @@ template {
     z-index: 5; }
     @media (max-width: 374px) {
       .product-card-content {
-        padding: 20px 30px; } }
+        padding: 20px 40px; } }
   .product-card-pretitle {
     color: #666666;
     font-size: 16px;
-    line-height: normal;
-    word-spacing: 1.5px; }
+    line-height: normal; }
     .product-card-pretitle .hover {
       display: none;
       color: #d91667; }
@@ -469,6 +468,9 @@ template {
   font-size: 13px;
   line-height: 16px;
   text-align: center; }
+  @media (max-width: 374px) {
+    .product-action {
+      max-width: 300px; } }
   .product-action .product-buy .btn-buy {
     padding: 0;
     border: none;
